@@ -1,0 +1,43 @@
+# what is kubernents ?
+Kubernets is a open source containerization tool which is developed by google and it has a lots of containers and deploy and maintain containers
+it helps to manage deployment environments either physical and virtual and cloud hybrid
+
+#  Trend from monlith 
+# Increse the usage of containers 
+what features do orchestaration tools offer ?
+hiag avalibility or no down time
+scalability or high performance 
+distaster recovery -backup and restore
+
+
+kubernets components ?
+
+pod
+  pod is smallest unit of k8s
+  pod insise having my-app- container
+ pod having own container pod having databse in case error it will crashed and again create anoother databse and ip address
+ each pod having difffernet ip address
+ usually 1 application per pod
+ 
+ 
+ service and ingress
+ 
+ 
+ ingress have the security and the ingress to the service
+   
+   
+configmap: configuration 
+externa; configuration of your application 
+
+secret use teh stoe the secret data not in plain text format base 64 encoded
+use ethe enviroment variables 
+topics 
+
+pod service,configmap,scret
+#z#############################################
+
+data storage in kuebrnets :::::::::::
+
+storage on local machine 
+
+or remote ouside 
